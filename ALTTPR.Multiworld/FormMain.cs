@@ -6,7 +6,7 @@ namespace ALTTPR.Multiworld
 {
     public partial class FormMain : Form
     {
-        private readonly sd2snesConnectionManager _manager = new sd2snesConnectionManager();
+        //private readonly sd2snesConnectionManager _manager = new sd2snesConnectionManager();
         private readonly sd2snesConnector _connector = new sd2snesConnector();
         private readonly GameStateReaderWriter _reader_writer;
 
